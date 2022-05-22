@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(200,200,255);
+}
+.header,h1{
+text-align: center;
+margin-bottom: 50px;
+}
+.div-a{
+    width:25%;
+    height: 500px;
+    border:solid 1px;
+    margin: auto 20px auto 20px;
+    border-radius: 50px;
+}
+main{
+    margin-top:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color:rgba(255,255,255 ,1);
+    text-align: center;
+}
+h3{
+    font-size:30px ;
+    text-align: center;
+}
+li{
+    font-size: 25px;
+    margin:0px;
+}
+.science,img{
+    margin-top:20px ;
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+}
+.fin ,a{
+    margin-left:30px ;
+    padding: 10px 15px;
+    text-decoration: none;
+    background:linear-gradient(90deg,rgb(75,100,255)20%,rgb(0,240,0)35%,pink);
+    border: 1px solid;
+    color: rgba(255,255,255 ,1);
+    border-radius:10% ;
+    font-size:10px ;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.ligne-class{
+    width:25%;
+    height: 500px;
+    border:solid 1px;
+    margin: auto 20px auto 20px;
+    border-radius: 50px;
+}
+li{
+    list-style-type: none;
+}
+.dernier{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.derniere{
+    text-align: center;
+    padding:20px 30px;
+    background:linear-gradient(90deg,rgb(0,0,45) 30%,rgb(0,0,40)  30%,rgb(0,0,30) 40%);
+    font-size: 50px;
+    position: absolute;
+    left:755px;
+    border-radius:50px;
+}
+@media screen and (min-width:300px) and (max-width: 600px) {
+    main{
+        margin-top:50px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-a{
+        width:100%;
+        height: 300px;
+        border:solid 1px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+    section{
+        display: block;
+}
+li{
+    font-size: 20px;
+    margin:0px;
+}
+h3{
+    font-size:20px ;
+    text-align: center;
+}
+.science,img{
+    margin-top:20px ;
+    width:10%;
+    height: auto;
+    object-fit: cover;
+}
+.header,h1{
+    text-align: center;
+    margin-bottom: 20px;
+    }
+}
